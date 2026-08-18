@@ -1,0 +1,127 @@
+- generic:
+  - region "Notifications alt+T"
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic: L
+            - paragraph: 本地化翻译
+        - generic:
+          - generic:
+            - link:
+              - /url: /
+              - generic:
+                - paragraph: 我的工程
+            - link:
+              - /url: /project
+              - generic:
+                - paragraph: 翻译校对
+            - link:
+              - /url: /prompts
+              - generic:
+                - paragraph: 提示词模板
+            - link:
+              - /url: /terms
+              - generic:
+                - paragraph: 术语库
+            - link:
+              - /url: /languages
+              - generic:
+                - paragraph: 语言
+            - link:
+              - /url: /settings
+              - generic:
+                - paragraph: 引擎配置
+            - link:
+              - /url: /org
+              - generic:
+                - paragraph: 组织
+        - generic:
+          - generic:
+            - button
+            - button
+      - generic:
+        - generic:
+          - heading [level=1]: 引擎配置
+          - paragraph: 配置翻译 API（首期支持 GLM 及 OpenAI 兼容接口）
+        - generic:
+          - generic:
+            - heading [level=1]: 添加引擎
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph: 新增引擎配置
+                - generic:
+                  - textbox:
+                    - /placeholder: 配置名称（可选，用于区分用途，如 韩语专属API）
+                - combobox [expanded]:
+                  - generic: 选择引擎
+                - combobox
+                - generic:
+                  - textbox:
+                    - /placeholder: Base URL（如 https://open.bigmodel.cn/api/paas/v4/）
+                    - text: https://open.bigmodel.cn/api/coding/paas/v4
+                - generic:
+                  - textbox:
+                    - /placeholder: API Key
+                    - text: 8e8178f4896345eca4e77987501c190b.CBmdIc8rLbjpQi63
+                - generic:
+                  - textbox:
+                    - /placeholder: 模型名（如 glm-4-flash）
+                    - text: glm-4.7-flash
+                - generic:
+                  - spinbutton
+                - generic:
+                  - generic:
+                    - checkbox
+                    - checkbox
+                    - text: 设为默认引擎
+                - generic:
+                  - button:
+                    - paragraph: 测试连接
+                  - button [disabled]: 保存配置
+                - paragraph: 提示：请先点击「测试连接」并确认成功，才能保存配置。
+          - generic:
+            - heading [level=1]: 已配置引擎
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - paragraph: 通用
+                      - generic: 默认
+                    - paragraph: "GLM · model: glm-4.7-flash · https://open.bigmodel.cn/api/coding/paas/v4"
+                    - generic: 已探测并发：1
+                  - button: 编辑
+                  - button: 删除
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - paragraph: 韩语
+                    - paragraph: "GLM · model: glm-4v-flash · https://open.bigmodel.cn/api/coding/paas/v4"
+                  - button: 编辑
+                  - button: 设为默认
+                  - button: 删除
+        - generic:
+          - heading [level=1]: 语言翻译配置
+          - paragraph: 为每个目标语言独立指定 API / 提示词模板 / 术语库 / 翻译策略。未指定的项跟随翻译页的当前选择或默认值。
+          - generic:
+            - combobox:
+              - generic: 目标语言
+            - combobox:
+              - generic: API（不指定=默认）
+            - combobox:
+              - generic: 提示词模板
+            - combobox:
+              - generic: 术语库
+            - combobox:
+              - generic: 策略
+            - button: 新增配置
+          - generic:
+            - paragraph: 还没有配置任何语言
+  - listbox [ref=f2e164]:
+    - group [ref=f2e167]:
+      - option "GLM" [active] [ref=f2e168]
+      - option "OpenAI 兼容" [ref=f2e170]

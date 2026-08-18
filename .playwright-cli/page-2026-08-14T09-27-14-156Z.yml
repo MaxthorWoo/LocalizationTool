@@ -1,0 +1,130 @@
+- generic [ref=e1]:
+  - region "Notifications alt+T"
+  - generic [ref=e2]:
+    - generic "Connection Error:"
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e6]:
+          - generic [ref=e7]: L
+          - paragraph [ref=e8]: 本地化翻译
+        - generic [ref=e10]:
+          - link [ref=e11] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=e15]: 我的工程
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /project
+            - paragraph [ref=e22]: 翻译校对
+          - link [ref=e23] [cursor=pointer]:
+            - /url: /prompts
+            - paragraph [ref=e28]: 提示词模板
+          - link [ref=e29] [cursor=pointer]:
+            - /url: /terms
+            - paragraph [ref=e33]: 术语库
+          - link [ref=e34] [cursor=pointer]:
+            - /url: /languages
+            - paragraph [ref=e39]: 语言
+          - link [ref=e40] [cursor=pointer]:
+            - /url: /settings
+            - paragraph [ref=e45]: 引擎配置
+          - link [ref=e46] [cursor=pointer]:
+            - /url: /org
+            - paragraph [ref=e53]: 组织
+        - generic [ref=e55]:
+          - button [ref=e56] [cursor=pointer]
+          - button [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - heading "提示词模板" [level=1] [ref=e66]
+          - paragraph [ref=e67]: 大模型指令可配置化，支持多角色消息与组织内共享
+        - generic [ref=e68]:
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - heading "新建提示词模板" [level=1] [ref=e72]
+              - button "新建" [ref=e73] [cursor=pointer]
+            - generic [ref=e74]:
+              - generic [ref=e75]:
+                - paragraph [ref=e76]: 模板名称
+                - textbox [ref=e78]
+              - generic [ref=e79]:
+                - paragraph [ref=e80]: 描述
+                - textbox [ref=e82]
+            - generic [ref=e83]:
+              - heading "可用内置变量" [level=1] [ref=e84]
+              - generic [ref=e96]:
+                - generic [ref=e97]:
+                  - generic [ref=e98]: source_text
+                  - paragraph [ref=e99]: 待翻译的源文案内容
+                - generic [ref=e100]:
+                  - generic [ref=e101]: source_lang
+                  - paragraph [ref=e102]: 源语言代码（如 zh-CN）
+                - generic [ref=e103]:
+                  - generic [ref=e104]: source_lang_name
+                  - paragraph [ref=e105]: 源语言名称（如 简体中文）
+                - generic [ref=e106]:
+                  - generic [ref=e107]: target_lang
+                  - paragraph [ref=e108]: 目标语言代码（如 en）
+                - generic [ref=e109]:
+                  - generic [ref=e110]: target_lang_name
+                  - paragraph [ref=e111]: 目标语言名称（如 英语）
+                - generic [ref=e112]:
+                  - generic [ref=e113]: term_context
+                  - paragraph [ref=e114]: 命中的术语约束（若出现请优先采用指定译法）
+                - generic [ref=e115]:
+                  - generic [ref=e116]: user_instruction
+                  - paragraph [ref=e117]: 用户自定义的翻译指令
+                - generic [ref=e118]:
+                  - generic [ref=e119]: entry_key
+                  - paragraph [ref=e120]: 当前条目的键名（如 SK1，无则留空）
+            - generic [ref=e85]:
+              - heading "多角色消息" [level=1] [ref=e86]
+              - generic [ref=e87]:
+                - generic [ref=e121]:
+                  - generic [ref=e122]:
+                    - combobox [ref=e123] [cursor=pointer]:
+                      - generic [ref=e124]: 系统
+                    - button "删除" [ref=e128] [cursor=pointer]
+                  - textbox [ref=e130]: "你是专业的{source_text}本地化翻译专家。"
+                  - button "＋ 插入变量" [ref=e132] [cursor=pointer]
+                - generic [ref=e133]:
+                  - generic [ref=e134]:
+                    - combobox [ref=e135] [cursor=pointer]:
+                      - generic [ref=e136]: 用户
+                    - button "删除" [ref=e140] [cursor=pointer]
+                  - textbox [ref=e142]: "请翻译：{source_text}"
+                  - generic [ref=e143]:
+                    - button "＋ 插入变量" [active] [ref=e144] [cursor=pointer]
+                    - paragraph [ref=e178]: 点击下方变量插入到当前光标位置
+                  - generic [ref=e179]:
+                    - button [ref=e180] [cursor=pointer]:
+                      - paragraph [ref=e181]: "{source_text}"
+                    - button [ref=e182] [cursor=pointer]:
+                      - paragraph [ref=e183]: "{source_lang}"
+                    - button [ref=e184] [cursor=pointer]:
+                      - paragraph [ref=e185]: "{source_lang_name}"
+                    - button [ref=e186] [cursor=pointer]:
+                      - paragraph [ref=e187]: "{target_lang}"
+                    - button [ref=e188] [cursor=pointer]:
+                      - paragraph [ref=e189]: "{target_lang_name}"
+                    - button [ref=e190] [cursor=pointer]:
+                      - paragraph [ref=e191]: "{term_context}"
+                    - button [ref=e192] [cursor=pointer]:
+                      - paragraph [ref=e193]: "{user_instruction}"
+                    - button [ref=e194] [cursor=pointer]:
+                      - paragraph [ref=e195]: "{entry_key}"
+                - button "+ 添加消息" [ref=e88] [cursor=pointer]
+            - button "保存模板" [ref=e89] [cursor=pointer]
+          - generic [ref=e90]:
+            - heading "模板列表" [level=1] [ref=e91]
+            - generic [ref=e145]:
+              - generic [ref=e146]:
+                - generic [ref=e147]:
+                  - paragraph [ref=e148]: 默认语言
+                  - paragraph [ref=e149]: 默认语言
+                - button "编辑" [ref=e151] [cursor=pointer]
+                - button "删除" [ref=e152] [cursor=pointer]
+              - generic [ref=e153]:
+                - generic [ref=e154]:
+                  - paragraph [ref=e155]: 韩语
+                  - paragraph [ref=e156]: 韩语
+                - button "编辑" [ref=e158] [cursor=pointer]
+                - button "删除" [ref=e159] [cursor=pointer]

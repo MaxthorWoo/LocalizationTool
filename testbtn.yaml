@@ -1,0 +1,95 @@
+- generic [ref=f1e1]:
+  - region "Notifications alt+T"
+  - generic [ref=f1e2]:
+    - generic "Connection Error:"
+    - generic [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - generic [ref=f1e6]:
+          - generic [ref=f1e7]: L
+          - paragraph [ref=f1e8]: 本地化翻译
+        - generic [ref=f1e10]:
+          - link [ref=f1e11] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=f1e15]: 我的工程
+          - link [ref=f1e16] [cursor=pointer]:
+            - /url: /project
+            - paragraph [ref=f1e22]: 翻译校对
+          - link [ref=f1e23] [cursor=pointer]:
+            - /url: /prompts
+            - paragraph [ref=f1e28]: 提示词模板
+          - link [ref=f1e29] [cursor=pointer]:
+            - /url: /terms
+            - paragraph [ref=f1e33]: 术语库
+          - link [ref=f1e34] [cursor=pointer]:
+            - /url: /languages
+            - paragraph [ref=f1e39]: 语言
+          - link [ref=f1e40] [cursor=pointer]:
+            - /url: /settings
+            - paragraph [ref=f1e45]: 引擎配置
+          - link [ref=f1e46] [cursor=pointer]:
+            - /url: /org
+            - paragraph [ref=f1e53]: 组织
+        - generic [ref=f1e55]:
+          - button [ref=f1e56] [cursor=pointer]
+          - button [ref=f1e63] [cursor=pointer]
+      - generic [ref=f1e64]:
+        - generic [ref=f1e65]:
+          - heading "引擎配置" [level=1] [ref=f1e66]
+          - paragraph [ref=f1e67]: 配置翻译 API（首期支持 GLM 及 OpenAI 兼容接口）
+        - generic [ref=f1e68]:
+          - generic [ref=f1e69]:
+            - heading "添加引擎" [level=1] [ref=f1e70]
+            - generic [ref=f1e72]:
+              - paragraph [ref=f1e74]: 新增引擎配置
+              - textbox "配置名称（可选，用于区分用途，如 韩语专属API）" [ref=f1e77]
+              - combobox [active] [ref=f1e78] [cursor=pointer]:
+                - generic [ref=f1e79]: GLM
+              - combobox [ref=f1e138] [cursor=pointer]
+              - textbox "Base URL（如 https://open.bigmodel.cn/api/paas/v4/）" [ref=f1e84]: https://open.bigmodel.cn/api/coding/paas/v4
+              - textbox "API Key" [ref=f1e86]: 8e8178f4896345eca4e77987501c190b.CBmdIc8rLbjpQi63
+              - textbox "模型名（如 glm-4-flash）" [ref=f1e88]: glm-4.7-flash
+              - spinbutton "并发上限（0=自动探测，留空表示自动）" [ref=f1e90]
+              - generic [ref=f1e92] [cursor=pointer]:
+                - checkbox "设为默认引擎" [ref=f1e93]
+                - checkbox
+                - text: 设为默认引擎
+              - generic [ref=f1e94]:
+                - button [ref=f1e95] [cursor=pointer]:
+                  - paragraph [ref=f1e96]: 测试连接
+                - button "保存配置" [disabled] [ref=f1e97] [cursor=pointer]
+              - paragraph [ref=f1e98]: 提示：请先点击「测试连接」并确认成功，才能保存配置。
+          - generic [ref=f1e99]:
+            - heading "已配置引擎" [level=1] [ref=f1e100]
+            - generic [ref=f1e139]:
+              - generic [ref=f1e141]:
+                - generic [ref=f1e142]:
+                  - generic [ref=f1e143]:
+                    - paragraph [ref=f1e144]: 通用
+                    - generic [ref=f1e145]: 默认
+                  - paragraph [ref=f1e146]: "GLM · model: glm-4.7-flash · https://open.bigmodel.cn/api/coding/paas/v4"
+                  - generic [ref=f1e147]: 已探测并发：1
+                - button "编辑" [ref=f1e150] [cursor=pointer]
+                - button "删除" [ref=f1e151] [cursor=pointer]
+              - generic [ref=f1e153]:
+                - generic [ref=f1e154]:
+                  - paragraph [ref=f1e156]: 韩语
+                  - paragraph [ref=f1e157]: "GLM · model: glm-4v-flash · https://open.bigmodel.cn/api/coding/paas/v4"
+                - button "编辑" [ref=f1e159] [cursor=pointer]
+                - button "设为默认" [ref=f1e160] [cursor=pointer]
+                - button "删除" [ref=f1e161] [cursor=pointer]
+        - generic [ref=f1e103]:
+          - heading "语言翻译配置" [level=1] [ref=f1e104]
+          - paragraph [ref=f1e105]: 为每个目标语言独立指定 API / 提示词模板 / 术语库 / 翻译策略。未指定的项跟随翻译页的当前选择或默认值。
+          - generic [ref=f1e106]:
+            - combobox [ref=f1e107] [cursor=pointer]:
+              - generic [ref=f1e108]: 目标语言
+            - combobox [ref=f1e112] [cursor=pointer]:
+              - generic [ref=f1e113]: API（不指定=默认）
+            - combobox [ref=f1e117] [cursor=pointer]:
+              - generic [ref=f1e118]: 提示词模板
+            - combobox [ref=f1e122] [cursor=pointer]:
+              - generic [ref=f1e123]: 术语库
+            - combobox [ref=f1e127] [cursor=pointer]:
+              - generic [ref=f1e128]: 策略
+            - button "新增配置" [ref=f1e132] [cursor=pointer]
+          - paragraph [ref=f1e135]: 还没有配置任何语言

@@ -1,0 +1,159 @@
+=================== 繁体中文 ===================
+
+維護與更新公告
+
+諸位修仙者，
+
+我們將於 2026 年 7 月 3 日 16:00 至 18:00 (UTC+8) 進行伺服器維護與更新。
+維護期間將無法登入遊戲，請各位提前安排遊戲時間，以免造成不便。
+
+新活動：
+1. 賽龍舟
+· 活動開始時間：07 月 03 日（持續 7 天）
+· 開啟條件：完成主線任務：通過試練 2-5。
+2. 仙界盲盒
+· 活動開啟時間：07 月 10 日（持續 7 天）
+· 開啟條件：完成主線任務：通過試練 2-5。
+3. 夏日探查
+· 活動開啟時間：07 月 17 日（持續 7 天）
+· 開啟條件：完成主線任務：通過試練 2-5。
+4. 福運連連
+· 活動開啟時間：07 月 24 日（持續 7 天）
+· 開啟條件：完成主線任務：通過試練 2-5。
+
+新內容：
+1. 新增小師妹輔助開箱功能。
+
+優化：
+1. 優化提升仙藏屬性類型的仙典文本描述。
+2. 優化離線彈窗提示訊息。
+3. 優化後山新手引導顯示。
+
+修復：
+1. 修復靈獸重置時預覽返還道具顯示不全的問題。
+2. 修復新手期自動煉器期間引導手打斷自動煉器的問題。
+
+對於維護期間可能造成的不便，我們深感抱歉，感謝您的支持與諒解！
+
+《神器傳說》團隊
+
+=================== 英文 ===================
+
+Maintenance & Update Notice
+
+Fellow Cultivators,
+
+We will conduct Server Maintenance and update on July 3, 2026, from 16:00 to 18:00 (UTC+8). During the Maintenance period, you will be unable to Log In. Please arrange your gameplay time in advance to avoid inconvenience.
+
+New Event:
+1. Dragon Boat Race  
+   - Event start time: July 3 (lasting 7 days)  
+   - Unlock condition: Complete Main Quest – Pass Trial 2‑5.  
+2. Celestial Mystery Box  
+   - Event start time: July 10 (lasting 7 days)  
+   - Unlock condition: Complete Main Quest – Pass Trial 2‑5.  
+3. Summer Expedition  
+   - Event start time: July 17 (lasting 7 days)  
+   - Unlock condition: Complete Main Quest – Pass Trial 2‑5.  
+4. Fortune Rush  
+   - Event start time: July 24 (lasting 7 days)  
+   - Unlock condition: Complete Main Quest – Pass Trial 2‑5.  
+
+New Content:
+1. Added Disciple Sister assisted box opening feature.  
+
+Optimizations:
+1. Optimized Upgrade Treasure attribute Type text description in the Celestial Codex.  
+2. Optimized offline popup Tip messages.  
+3. Optimized Hill new player guide display.  
+
+Fixes:
+1. Fixed issue where Beast reset Preview of returned Item display was incomplete.  
+2. Fixed issue where during the novice period the Auto Refine guidance could be manually interrupted.  
+
+We sincerely apologize for any inconvenience caused during the Maintenance period and thank you for your Support and understanding!
+
+Infinite Immortal Path Team
+
+=================== 韩语 ===================
+
+업데이트 일정
+
+업데이트 일시: 2026년 7월 3일(금) 17:00 ~ 19:00까지 진행 예정
+
+점검 시간 동안은 게임에 접속 및 이용하실 수 없습니다.
+
+불편을 끼쳐드려 정말 죄송합니다. 사전에 게임 시간을 조정해 주시기 바랍니다.
+
+신규 이벤트
+
+1. 용선 경주 이벤트:  7월 3일부터 7일간 진행
+
+참여 조건: 메인 퀘스트 시련 2-5 클리어
+​
+2. 선계 랜덤 박스 이벤트:  7월 10일부터 7일간 진행
+
+참여 조건: 메인 퀘스트 시련 2-5 클리어
+​
+3. 여름 탐사 이벤트:  7월 17일부터 7일간 진행
+
+참여 조건: 메인 퀘스트 시련 2-5 클리어
+
+4. 복운 가득 이벤트:  7월 24일부터 7일간 진행
+
+참여 조건: 메인 퀘스트 시련 2-5 클리어
+
+기능 추가
+
+사매 상자 열기 보조 기능이 추가됩니다.
+
+개선 사항
+
+1. 선장 속성 유형 관련 선전 설명이 개선됩니다.
+
+2. 오프라인 팝업 안내 메시지가 개선됩니다.
+
+3. 뒷산 신규 유저 가이드 화면이 개선됩니다.
+
+수정 사항
+
+1. 영수 초기화 시, 반환 아이템 미리보기가 일부 표시되지 않던 문제가 수정됩니다.
+
+2. 신규 유저의 자동 제련 진행 중, 가이드로 인해 제련이 중단되던 문제가 수정됩니다.
+
+=================== 日语 ===================
+
+メンテナンスと更新のお知らせ
+修仙者の皆様、
+
+2026 年 7 月 3 日 16:00〜18:00 (UTC+8) にサーバーのメンテナンス中と更新を行います。メンテナンス期間中はゲームに出席できません。ご不便を防ぐため、事前にプレイ時間をご調整ください。
+
+新イベント：
+
+1. ドラゴンボートレース
+　開始時間：7 月 3 日（持続 7 日）
+　開始条件：主要任務を完了し、試練2-5を通過する。
+2. 仙界ミステリーボックス
+　開始時間：7 月 10 日（持続 7 日）
+　開始条件：主要任務を完了し、試練2-5を通過する。
+3. 夏の探査
+　開始時間：7 月 17 日（持続 7 日）
+　開始条件：主要任務を完了し、試練2-5を通過する。
+4. 福運連連
+　開始時間：7 月 24 日（持続 7 日）
+　開始条件：主要任務を完了し、試練2-5を通過する。
+新コンテンツ：
+妹弟子の補助盲盒機能を追加しました。
+
+最適化：
+宣三属性タイプの仙典テキスト記述を最適化しました。
+離線ポップアップの提示メッセージを最適化しました。
+後山新手ガイド表示を最適化しました。
+
+修復：
+霊獣リセット時のプレビュー返還アイテム表示が不完全だった問題を修復しました。
+新手期のオート煉器期間中にガイドがオート煉器を中断する問題を修復しました。
+
+メンテナンス期間にご不便をおかけすることを深くお詫び申し上げます。ご支援とご理解に感謝いたします！
+
+Infinite Immortal Path チーム

@@ -1,0 +1,116 @@
+- generic [active] [ref=e1]:
+  - region "Notifications alt+T"
+  - generic [ref=e2]:
+    - generic "Connection Error:"
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e6]:
+          - generic [ref=e7]: L
+          - paragraph [ref=e8]: 本地化翻译
+        - generic [ref=e10]:
+          - link [ref=e11] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=e15]: 我的工程
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /project
+            - paragraph [ref=e22]: 翻译校对
+          - link [ref=e23] [cursor=pointer]:
+            - /url: /prompts
+            - paragraph [ref=e28]: 提示词模板
+          - link [ref=e29] [cursor=pointer]:
+            - /url: /terms
+            - paragraph [ref=e33]: 术语库
+          - link [ref=e34] [cursor=pointer]:
+            - /url: /languages
+            - paragraph [ref=e39]: 语言
+          - link [ref=e40] [cursor=pointer]:
+            - /url: /settings
+            - paragraph [ref=e45]: 引擎配置
+          - link [ref=e46] [cursor=pointer]:
+            - /url: /org
+            - paragraph [ref=e53]: 组织
+        - generic [ref=e55]:
+          - button [ref=e56] [cursor=pointer]
+          - button [ref=e63] [cursor=pointer]
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - heading "纯文本工程" [level=1] [ref=e72]
+          - paragraph [ref=e68]: 对照翻译与校对工作台
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - heading "语言方案配置" [level=1] [ref=e76]
+              - paragraph [ref=e77]: 为每个目标语言独立配置 API / 提示词 / 术语库 / 策略；勾选的行参与翻译，取消勾选不影响已保存的译文。
+            - generic [ref=e78]:
+              - generic [ref=e79]:
+                - paragraph [ref=e80]: 工程源语言
+                - combobox [ref=e81] [cursor=pointer]:
+                  - generic [ref=e82]: zh-CN 简体中文
+              - generic [ref=e85]:
+                - paragraph [ref=e86]: 添加目标语言
+                - generic [ref=e87]:
+                  - combobox [ref=e88] [cursor=pointer]:
+                    - generic [ref=e89]: zh-CN 简体中文
+                  - button "添加" [ref=e92] [cursor=pointer]
+          - generic [ref=e94]:
+            - generic [ref=e95]:
+              - generic [ref=e96]: 目标语言
+              - generic [ref=e97]: 翻译 API
+              - generic [ref=e98]: 提示词模板
+              - generic [ref=e99]: 术语库
+              - generic [ref=e100]: 翻译策略
+              - generic [ref=e101]: 操作
+            - generic [ref=e102]:
+              - checkbox [checked] [ref=e106] [cursor=pointer]
+              - generic [ref=e107]: en 英语
+              - combobox [ref=e110] [cursor=pointer]:
+                - generic [ref=e111]: 英语 (GLM glm-4v-flash)
+              - combobox [ref=e115] [cursor=pointer]:
+                - generic [ref=e116]: 默认语言
+              - combobox [ref=e120] [cursor=pointer]:
+                - generic [ref=e121]: 默认术语库
+              - combobox [ref=e125] [cursor=pointer]:
+                - generic [ref=e126]: 跳过已有译文
+              - button "删除" [ref=e130] [cursor=pointer]
+            - generic [ref=e131]:
+              - checkbox [checked] [ref=e135] [cursor=pointer]
+              - generic [ref=e136]: ko 韩语
+              - combobox [ref=e139] [cursor=pointer]:
+                - generic [ref=e140]: 韩语 (GLM glm-4v-flash)
+              - combobox [ref=e144] [cursor=pointer]:
+                - generic [ref=e145]: 韩语
+              - combobox [ref=e149] [cursor=pointer]:
+                - generic [ref=e150]: 默认术语库
+              - combobox [ref=e154] [cursor=pointer]:
+                - generic [ref=e155]: 跳过已有译文
+              - button "删除" [ref=e159] [cursor=pointer]
+        - generic [ref=e161]:
+          - button "开始翻译" [ref=e162] [cursor=pointer]
+          - button "清空译文" [ref=e163] [cursor=pointer]
+          - button "导出 xlsx" [ref=e164] [cursor=pointer]
+          - button "切换工程" [ref=e165] [cursor=pointer]
+        - generic [ref=e169]:
+          - generic [ref=e170]:
+            - paragraph [ref=e171]: "#"
+            - paragraph [ref=e172]: 源文案
+            - paragraph [ref=e173]: en 英语
+            - paragraph [ref=e174]: ko 韩语
+            - paragraph [ref=e175]: 状态
+            - paragraph [ref=e176]: 命中术语
+            - paragraph [ref=e177]: 操作
+          - generic [ref=e178]:
+            - paragraph [ref=e180]: "-"
+            - textbox [ref=e183]: 神器传说
+            - generic [ref=e184]:
+              - textbox [ref=e186]: The Infinite Immortal Path
+              - button "重翻此语言" [ref=e187] [cursor=pointer]
+            - generic [ref=e193]:
+              - textbox [ref=e195]: 황제의 검을 떨궈요.
+              - button "重翻此语言" [ref=e196] [cursor=pointer]
+            - generic [ref=e202]: 已译
+            - paragraph [ref=e207]: 神器传说
+            - generic [ref=e209]:
+              - combobox [ref=e210] [cursor=pointer]:
+                - generic [ref=e211]: 修改状态
+              - button [ref=e214] [cursor=pointer]:
+                - paragraph [ref=e221]: 重翻整行

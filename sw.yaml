@@ -1,0 +1,120 @@
+- generic [active] [ref=f2e1]:
+  - region "Notifications alt+T"
+  - generic [ref=f2e2]:
+    - generic "Connection Error:"
+    - generic [ref=f2e3]:
+      - generic [ref=f2e4]:
+        - generic [ref=f2e6]:
+          - generic [ref=f2e7]: L
+          - paragraph [ref=f2e8]: 本地化翻译
+        - generic [ref=f2e10]:
+          - link [ref=f2e11] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=f2e15]: 我的工程
+          - link [ref=f2e16] [cursor=pointer]:
+            - /url: /project
+            - paragraph [ref=f2e22]: 翻译校对
+          - link [ref=f2e23] [cursor=pointer]:
+            - /url: /prompts
+            - paragraph [ref=f2e28]: 提示词模板
+          - link [ref=f2e29] [cursor=pointer]:
+            - /url: /terms
+            - paragraph [ref=f2e33]: 术语库
+          - link [ref=f2e34] [cursor=pointer]:
+            - /url: /languages
+            - paragraph [ref=f2e39]: 语言
+          - link [ref=f2e40] [cursor=pointer]:
+            - /url: /settings
+            - paragraph [ref=f2e45]: 引擎配置
+          - link [ref=f2e46] [cursor=pointer]:
+            - /url: /org
+            - paragraph [ref=f2e53]: 组织
+        - generic [ref=f2e55]:
+          - button [ref=f2e56] [cursor=pointer]
+          - button [ref=f2e63] [cursor=pointer]
+      - generic [ref=f2e65]:
+        - generic [ref=f2e66]:
+          - heading "0728.xlsx" [level=1] [ref=f2e72]
+          - paragraph [ref=f2e68]: 对照翻译与校对工作台
+        - generic [ref=f2e73]:
+          - generic [ref=f2e74]:
+            - generic [ref=f2e75]:
+              - heading "语言方案配置" [level=1] [ref=f2e76]
+              - paragraph [ref=f2e77]: 为每个目标语言独立配置 API / 提示词 / 术语库 / 策略；勾选的行参与翻译，取消勾选不影响已保存的译文。
+            - generic [ref=f2e78]:
+              - generic [ref=f2e79]:
+                - paragraph [ref=f2e80]: 工程源语言
+                - combobox [ref=f2e81] [cursor=pointer]:
+                  - generic [ref=f2e82]: zh-CN 简体中文
+              - generic [ref=f2e85]:
+                - paragraph [ref=f2e86]: 添加目标语言
+                - generic [ref=f2e87]:
+                  - combobox [ref=f2e88] [cursor=pointer]:
+                    - generic [ref=f2e89]: zh-CN 简体中文
+                  - button "添加" [ref=f2e92] [cursor=pointer]
+          - generic [ref=f2e94]:
+            - generic [ref=f2e95]:
+              - generic [ref=f2e96]: 目标语言
+              - generic [ref=f2e97]: 翻译 API
+              - generic [ref=f2e98]: 提示词模板
+              - generic [ref=f2e99]: 术语库
+              - generic [ref=f2e100]: 翻译策略
+              - generic [ref=f2e101]: 操作
+            - generic [ref=f2e102]:
+              - checkbox [checked] [ref=f2e106] [cursor=pointer]
+              - generic [ref=f2e107]: en 英语
+              - combobox [ref=f2e110] [cursor=pointer]:
+                - generic [ref=f2e111]: 自动匹配
+              - combobox [ref=f2e115] [cursor=pointer]:
+                - generic [ref=f2e116]: 默认模板
+              - combobox [ref=f2e120] [cursor=pointer]:
+                - generic [ref=f2e121]: 不引用术语
+              - combobox [ref=f2e125] [cursor=pointer]:
+                - generic [ref=f2e126]: 跳过已有译文
+              - button "删除" [ref=f2e130] [cursor=pointer]
+            - generic [ref=f2e131]:
+              - checkbox [checked] [ref=f2e135] [cursor=pointer]
+              - generic [ref=f2e136]: ja 日语
+              - combobox [ref=f2e139] [cursor=pointer]:
+                - generic [ref=f2e140]: 自动匹配
+              - combobox [ref=f2e144] [cursor=pointer]:
+                - generic [ref=f2e145]: 默认模板
+              - combobox [ref=f2e149] [cursor=pointer]:
+                - generic [ref=f2e150]: 不引用术语
+              - combobox [ref=f2e154] [cursor=pointer]:
+                - generic [ref=f2e155]: 跳过已有译文
+              - button "删除" [ref=f2e159] [cursor=pointer]
+        - generic [ref=f2e161]:
+          - button "开始翻译" [ref=f2e162] [cursor=pointer]
+          - button "清空译文" [ref=f2e163] [cursor=pointer]
+          - button "导出 xlsx" [ref=f2e164] [cursor=pointer]
+          - button "切换工程" [ref=f2e165] [cursor=pointer]
+        - generic [ref=f2e169]:
+          - generic [ref=f2e170]:
+            - paragraph [ref=f2e171]: "#"
+            - paragraph [ref=f2e172]: 源文案
+            - paragraph [ref=f2e173]: en 英语
+            - paragraph [ref=f2e174]: ja 日语
+            - paragraph [ref=f2e175]: 状态
+            - paragraph [ref=f2e176]: 命中术语
+            - paragraph [ref=f2e177]: 操作
+          - generic [ref=f2e178]:
+            - paragraph [ref=f2e180]: "-"
+            - textbox [ref=f2e183]: 东海龙女·粉 东海龙女·蓝
+            - textbox [ref=f2e186]
+            - textbox [ref=f2e189]
+            - generic [ref=f2e190]: 待译
+            - generic [ref=f2e194]:
+              - paragraph [ref=f2e195]: —
+              - generic [ref=f2e196]: 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E 鏈A路鏈B路鏈C路鏈D路鏈E
+            - combobox [ref=f2e199] [cursor=pointer]:
+              - generic [ref=f2e200]: 修改状态
+          - generic [ref=f2e203]:
+            - paragraph [ref=f2e205]: "-"
+            - textbox [ref=f2e208]: 东海龙女·紫 东海龙女·金
+            - textbox [ref=f2e211]
+            - textbox [ref=f2e214]
+            - generic [ref=f2e215]: 待译
+            - paragraph [ref=f2e220]: —
+            - combobox [ref=f2e223] [cursor=pointer]:
+              - generic [ref=f2e224]: 修改状态

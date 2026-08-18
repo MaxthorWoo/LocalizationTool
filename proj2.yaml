@@ -1,0 +1,55 @@
+- generic [active] [ref=f1e1]:
+  - region "Notifications alt+T"
+  - generic [ref=f1e2]:
+    - generic "Connection Error:"
+    - generic [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - generic [ref=f1e6]:
+          - generic [ref=f1e7]: L
+          - paragraph [ref=f1e8]: 本地化翻译
+        - generic [ref=f1e10]:
+          - link [ref=f1e11] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=f1e15]: 我的工程
+          - link [ref=f1e16] [cursor=pointer]:
+            - /url: /project
+            - paragraph [ref=f1e22]: 翻译校对
+          - link [ref=f1e23] [cursor=pointer]:
+            - /url: /prompts
+            - paragraph [ref=f1e28]: 提示词模板
+          - link [ref=f1e29] [cursor=pointer]:
+            - /url: /terms
+            - paragraph [ref=f1e33]: 术语库
+          - link [ref=f1e34] [cursor=pointer]:
+            - /url: /languages
+            - paragraph [ref=f1e39]: 语言
+          - link [ref=f1e40] [cursor=pointer]:
+            - /url: /settings
+            - paragraph [ref=f1e45]: 引擎配置
+          - link [ref=f1e46] [cursor=pointer]:
+            - /url: /org
+            - paragraph [ref=f1e53]: 组织
+        - generic [ref=f1e55]:
+          - button [ref=f1e56] [cursor=pointer]
+          - button [ref=f1e63] [cursor=pointer]
+      - generic [ref=f1e65]:
+        - generic [ref=f1e66]:
+          - heading "翻译校对" [level=1] [ref=f1e67]
+          - paragraph [ref=f1e68]: 选择一个工程进行对照翻译与校对
+        - generic [ref=f1e69]:
+          - button [ref=f1e72] [cursor=pointer]:
+            - generic [ref=f1e73]:
+              - paragraph [ref=f1e74]: 纯文本工程
+              - paragraph [ref=f1e75]: 0/1 已译
+          - button [ref=f1e76] [cursor=pointer]:
+            - generic [ref=f1e77]:
+              - paragraph [ref=f1e78]: 0728.xlsx
+              - paragraph [ref=f1e79]: 0/2 已译
+          - button [ref=f1e80] [cursor=pointer]:
+            - generic [ref=f1e81]:
+              - paragraph [ref=f1e82]: 测试 02
+              - paragraph [ref=f1e83]: 0/1 已译
+          - button [ref=f1e84] [cursor=pointer]:
+            - generic [ref=f1e85]:
+              - paragraph [ref=f1e86]: 测试 01
+              - paragraph [ref=f1e87]: 0/1 已译

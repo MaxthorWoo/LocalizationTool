@@ -1,0 +1,87 @@
+- generic:
+  - region "Notifications alt+T"
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic: L
+            - paragraph: 本地化翻译
+        - generic:
+          - generic:
+            - link:
+              - /url: /
+              - generic:
+                - paragraph: 我的工程
+            - link:
+              - /url: /project
+              - generic:
+                - paragraph: 翻译校对
+            - link:
+              - /url: /prompts
+              - generic:
+                - paragraph: 提示词模板
+            - link:
+              - /url: /terms
+              - generic:
+                - paragraph: 术语库
+            - link:
+              - /url: /languages
+              - generic:
+                - paragraph: 语言
+            - link:
+              - /url: /settings
+              - generic:
+                - paragraph: 引擎配置
+            - link:
+              - /url: /org
+              - generic:
+                - paragraph: 组织
+        - generic:
+          - generic:
+            - button
+            - button
+      - generic:
+        - generic:
+          - heading [level=1]: 引擎配置
+          - paragraph: 配置翻译 API（首期支持 GLM 及 OpenAI 兼容接口）
+        - generic:
+          - generic:
+            - heading [level=1]: 添加引擎
+            - generic:
+              - generic:
+                - combobox [expanded]:
+                  - generic: 选择引擎
+                - combobox
+                - generic:
+                  - textbox:
+                    - /placeholder: Base URL（如 https://open.bigmodel.cn/api/paas/v4/）
+                    - text: https://example.com/v1/
+                - generic:
+                  - textbox:
+                    - /placeholder: API Key
+                    - text: fake-key
+                - generic:
+                  - textbox:
+                    - /placeholder: 模型名（如 glm-4-flash）
+                    - text: test-model
+                - generic:
+                  - generic:
+                    - checkbox
+                    - checkbox
+                    - text: 设为默认引擎
+                - generic:
+                  - button:
+                    - paragraph: 测试连接
+                  - button [disabled]: 保存配置
+                - paragraph: 提示：请先点击「测试连接」并确认成功，才能保存配置。
+                - generic:
+                  - paragraph: 请先填写引擎名称与 API Key
+          - generic:
+            - heading [level=1]: 已配置引擎
+            - generic:
+              - paragraph: 还没有配置引擎
+  - listbox [ref=f1e100]:
+    - group [ref=f1e103]:
+      - option "GLM" [active] [ref=f1e104]
+      - option "OpenAI 兼容" [ref=f1e106]

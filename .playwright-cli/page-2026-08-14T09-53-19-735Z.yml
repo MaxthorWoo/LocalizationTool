@@ -1,0 +1,66 @@
+- generic [active] [ref=f3e1]:
+  - region "Notifications alt+T"
+  - generic [ref=f3e2]:
+    - generic "Connection Error:"
+    - generic [ref=f3e3]:
+      - generic [ref=f3e4]:
+        - generic [ref=f3e6]:
+          - generic [ref=f3e7]: L
+          - paragraph [ref=f3e8]: 本地化翻译
+        - generic [ref=f3e10]:
+          - link [ref=f3e11] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=f3e15]: 我的工程
+          - link [ref=f3e16] [cursor=pointer]:
+            - /url: /project
+            - paragraph [ref=f3e22]: 翻译校对
+          - link [ref=f3e23] [cursor=pointer]:
+            - /url: /prompts
+            - paragraph [ref=f3e28]: 提示词模板
+          - link [ref=f3e29] [cursor=pointer]:
+            - /url: /terms
+            - paragraph [ref=f3e33]: 术语库
+          - link [ref=f3e34] [cursor=pointer]:
+            - /url: /languages
+            - paragraph [ref=f3e39]: 语言
+          - link [ref=f3e40] [cursor=pointer]:
+            - /url: /settings
+            - paragraph [ref=f3e45]: 引擎配置
+          - link [ref=f3e46] [cursor=pointer]:
+            - /url: /org
+            - paragraph [ref=f3e53]: 组织
+        - generic [ref=f3e55]:
+          - button [ref=f3e56] [cursor=pointer]
+          - button [ref=f3e63] [cursor=pointer]
+      - generic [ref=f3e64]:
+        - generic [ref=f3e65]:
+          - heading "我的工程" [level=1] [ref=f3e66]
+          - paragraph [ref=f3e67]: 创建一个文件工程，或直接粘贴文本开始翻译
+        - generic [ref=f3e68]:
+          - generic [ref=f3e69]:
+            - heading "上传文件作为工程" [level=1] [ref=f3e70]
+            - paragraph [ref=f3e71]: 支持 xlsx / csv / txt，导入后进入列映射向导
+            - generic [ref=f3e72]:
+              - button "Choose File" [ref=f3e73]
+              - generic [ref=f3e74]:
+                - generic [ref=f3e75]: ⬆
+                - paragraph [ref=f3e76]: 拖拽文件到此处，或点击选择文件
+                - button "选择文件" [ref=f3e77] [cursor=pointer]
+          - generic [ref=f3e79]:
+            - heading "粘贴文本直接翻译" [level=1] [ref=f3e80]
+            - paragraph [ref=f3e81]: 无需文件，粘贴一段文字即可创建翻译工程
+            - textbox "工程名称（可选）" [ref=f3e83]
+            - textbox "在这里粘贴要翻译的文本..." [ref=f3e85]
+            - generic [ref=f3e86]:
+              - generic [ref=f3e87]:
+                - paragraph [ref=f3e88]: 切分方式
+                - combobox [ref=f3e89] [cursor=pointer]
+                - combobox [ref=f3e92] [cursor=pointer]
+              - generic [ref=f3e93]:
+                - paragraph [ref=f3e94]: 源语言
+                - combobox [ref=f3e95] [cursor=pointer]
+                - combobox [ref=f3e98] [cursor=pointer]
+            - button "创建并翻译" [ref=f3e99] [cursor=pointer]
+        - generic [ref=f3e100]:
+          - heading "我的工程" [level=1] [ref=f3e101]
+          - paragraph [ref=f3e103]: 还没有工程，请从上方创建

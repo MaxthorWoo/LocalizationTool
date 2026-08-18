@@ -1,0 +1,84 @@
+- generic [active] [ref=e1]:
+  - region "Notifications alt+T"
+  - generic [ref=e2]:
+    - generic "Connection Error:"
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e6]:
+          - generic [ref=e7]: L
+          - paragraph [ref=e8]: 本地化翻译
+        - generic [ref=e10]:
+          - link [ref=e11] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=e15]: 我的工程
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /project
+            - paragraph [ref=e22]: 翻译校对
+          - link [ref=e23] [cursor=pointer]:
+            - /url: /prompts
+            - paragraph [ref=e28]: 提示词模板
+          - link [ref=e29] [cursor=pointer]:
+            - /url: /terms
+            - paragraph [ref=e33]: 术语库
+          - link [ref=e34] [cursor=pointer]:
+            - /url: /languages
+            - paragraph [ref=e39]: 语言
+          - link [ref=e40] [cursor=pointer]:
+            - /url: /settings
+            - paragraph [ref=e45]: 引擎配置
+          - link [ref=e46] [cursor=pointer]:
+            - /url: /org
+            - paragraph [ref=e53]: 组织
+        - generic [ref=e55]:
+          - button [ref=e56] [cursor=pointer]
+          - button [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - heading "引擎配置" [level=1] [ref=e66]
+          - paragraph [ref=e67]: 配置翻译 API（首期支持 GLM 及 OpenAI 兼容接口）
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - heading "添加引擎" [level=1] [ref=e70]
+            - generic [ref=e72]:
+              - paragraph [ref=e74]: 新增引擎配置
+              - textbox "配置名称（可选，用于区分用途，如 韩语专属API）" [ref=e77]
+              - combobox [ref=e78] [cursor=pointer]:
+                - generic [ref=e79]: 选择引擎
+              - combobox [ref=e82] [cursor=pointer]
+              - textbox "Base URL（如 https://open.bigmodel.cn/api/paas/v4/）" [ref=e84]
+              - textbox "API Key" [ref=e86]
+              - textbox "模型名（如 glm-4-flash）" [ref=e88]
+              - spinbutton "并发上限（0=自动探测，留空表示自动）" [ref=e90]
+              - generic [ref=e92] [cursor=pointer]:
+                - checkbox "设为默认引擎" [ref=e93]
+                - checkbox
+                - text: 设为默认引擎
+              - generic [ref=e94]:
+                - button [ref=e95] [cursor=pointer]:
+                  - paragraph [ref=e96]: 测试连接
+                - button "保存配置" [disabled] [ref=e97] [cursor=pointer]
+              - paragraph [ref=e98]: 提示：请先点击「测试连接」并确认成功，才能保存配置。
+          - generic [ref=e99]:
+            - heading "已配置引擎" [level=1] [ref=e100]
+            - paragraph [ref=e102]: 还没有配置引擎
+        - generic [ref=e103]:
+          - heading "语言翻译配置" [level=1] [ref=e104]
+          - paragraph [ref=e105]: 为每个目标语言独立指定 API / 提示词模板 / 术语库 / 翻译策略。未指定的项跟随翻译页的当前选择或默认值。
+          - generic [ref=e106]:
+            - combobox [ref=e107] [cursor=pointer]:
+              - generic [ref=e108]: 目标语言
+            - combobox [ref=e111] [cursor=pointer]
+            - combobox [ref=e112] [cursor=pointer]:
+              - generic [ref=e113]: API（不指定=默认）
+            - combobox [ref=e116] [cursor=pointer]
+            - combobox [ref=e117] [cursor=pointer]:
+              - generic [ref=e118]: 提示词模板
+            - combobox [ref=e121] [cursor=pointer]
+            - combobox [ref=e122] [cursor=pointer]:
+              - generic [ref=e123]: 术语库
+            - combobox [ref=e126] [cursor=pointer]
+            - combobox [ref=e127] [cursor=pointer]:
+              - generic [ref=e128]: 策略
+            - combobox [ref=e131] [cursor=pointer]
+            - button "新增配置" [ref=e132] [cursor=pointer]
+          - paragraph [ref=e135]: 还没有配置任何语言

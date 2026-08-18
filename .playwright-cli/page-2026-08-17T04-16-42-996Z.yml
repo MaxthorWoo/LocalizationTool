@@ -1,0 +1,37 @@
+- generic [active] [ref=f2e1]:
+  - region "Notifications alt+T"
+  - generic [ref=f2e2]:
+    - generic "Connection Error:"
+    - generic [ref=f2e3]:
+      - generic [ref=f2e4]:
+        - generic [ref=f2e6]:
+          - generic [ref=f2e7]: L
+          - paragraph [ref=f2e8]: 本地化翻译
+        - generic [ref=f2e10]:
+          - link [ref=f2e11] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=f2e15]: 我的工程
+          - link [ref=f2e16] [cursor=pointer]:
+            - /url: /project
+            - paragraph [ref=f2e22]: 翻译校对
+          - link [ref=f2e23] [cursor=pointer]:
+            - /url: /prompts
+            - paragraph [ref=f2e28]: 提示词模板
+          - link [ref=f2e29] [cursor=pointer]:
+            - /url: /terms
+            - paragraph [ref=f2e33]: 术语库
+          - link [ref=f2e34] [cursor=pointer]:
+            - /url: /languages
+            - paragraph [ref=f2e39]: 语言
+          - link [ref=f2e40] [cursor=pointer]:
+            - /url: /settings
+            - paragraph [ref=f2e45]: 引擎配置
+          - link [ref=f2e46] [cursor=pointer]:
+            - /url: /org
+            - paragraph [ref=f2e53]: 组织
+        - generic [ref=f2e55]:
+          - button [ref=f2e56] [cursor=pointer]
+          - button [ref=f2e63] [cursor=pointer]
+      - generic [ref=f2e66]:
+        - heading "翻译校对" [level=1] [ref=f2e67]
+        - paragraph [ref=f2e68]: 选择一个工程进行对照翻译与校对

@@ -1,0 +1,171 @@
+- generic:
+  - region "Notifications alt+T"
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic: L
+            - paragraph: 本地化翻译
+        - generic:
+          - generic:
+            - link:
+              - /url: /
+              - generic:
+                - paragraph: 我的工程
+            - link:
+              - /url: /project
+              - generic:
+                - paragraph: 翻译校对
+            - link:
+              - /url: /prompts
+              - generic:
+                - paragraph: 提示词模板
+            - link:
+              - /url: /terms
+              - generic:
+                - paragraph: 术语库
+            - link:
+              - /url: /languages
+              - generic:
+                - paragraph: 语言
+            - link:
+              - /url: /settings
+              - generic:
+                - paragraph: 引擎配置
+            - link:
+              - /url: /org
+              - generic:
+                - paragraph: 组织
+        - generic:
+          - generic:
+            - button
+            - button
+      - generic:
+        - generic:
+          - generic:
+            - heading [level=1]: 纯文本工程
+            - paragraph: 对照翻译与校对工作台
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - heading [level=1]: 语言方案配置
+                  - paragraph: 为每个目标语言独立配置 API / 提示词 / 术语库 / 策略；勾选的行参与翻译，取消勾选不影响已保存的译文。
+                - generic:
+                  - generic:
+                    - paragraph: 工程源语言
+                    - combobox [expanded]:
+                      - generic: zh-CN 简体中文
+                  - generic:
+                    - paragraph: 添加目标语言
+                    - generic:
+                      - combobox:
+                        - generic: zh-CN 简体中文
+                      - button: 添加
+              - generic:
+                - generic:
+                  - generic: 目标语言
+                  - generic: 翻译 API
+                  - generic: 提示词模板
+                  - generic: 术语库
+                  - generic: 翻译策略
+                  - generic: 操作
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - checkbox [checked]
+                  - generic: en 英语
+                  - generic:
+                    - combobox:
+                      - generic: 英语 (GLM glm-4v-flash)
+                  - generic:
+                    - combobox:
+                      - generic: 默认语言
+                  - generic:
+                    - combobox:
+                      - generic: 默认术语库
+                  - generic:
+                    - combobox:
+                      - generic: 跳过已有译文
+                  - generic:
+                    - button: 删除
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - checkbox [checked]
+                  - generic: ko 韩语
+                  - generic:
+                    - combobox:
+                      - generic: 韩语 (GLM glm-4v-flash)
+                  - generic:
+                    - combobox:
+                      - generic: 韩语
+                  - generic:
+                    - combobox:
+                      - generic: 默认术语库
+                  - generic:
+                    - combobox:
+                      - generic: 跳过已有译文
+                  - generic:
+                    - button: 删除
+          - generic:
+            - generic:
+              - button: 开始翻译
+              - button: 清空译文
+              - button: 导出 xlsx
+              - button: 切换工程
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph: "#"
+                  - paragraph: 源文案
+                  - paragraph: en 英语
+                  - paragraph: ko 韩语
+                  - paragraph: 状态
+                  - paragraph: 命中术语
+                  - paragraph: 操作
+                - generic:
+                  - generic:
+                    - paragraph: "-"
+                  - generic:
+                    - generic:
+                      - textbox: 神器传说
+                  - generic:
+                    - generic:
+                      - textbox: The Infinite Immortal Path
+                    - button
+                  - generic:
+                    - generic:
+                      - textbox: 황제의 검을 떨궈요.
+                    - button
+                  - generic: 已译
+                  - generic:
+                    - generic:
+                      - paragraph: 神器传说
+                  - generic:
+                    - generic:
+                      - combobox:
+                        - generic: 修改状态
+                      - button:
+                        - generic:
+                          - paragraph: 重翻整行
+  - listbox [ref=f3e70]:
+    - group [ref=f3e73]:
+      - option "zh-CN 简体中文" [active] [selected] [ref=f3e74]
+      - option "zh-TW 繁體中文" [ref=f3e79]
+      - option "en 英语" [ref=f3e81]
+      - option "ja 日语" [ref=f3e83]
+      - option "ko 韩语" [ref=f3e85]
+      - option "th 泰语" [ref=f3e87]
+      - option "id 印尼语" [ref=f3e89]
+      - option "vi 越南语" [ref=f3e91]
+      - option "fr 法语" [ref=f3e93]
+      - option "de 德语" [ref=f3e95]
+      - option "es 西班牙语" [ref=f3e97]
+      - option "pt 葡萄牙语" [ref=f3e99]
+      - option "ru 俄语" [ref=f3e101]
+      - option "ar 阿拉伯语" [ref=f3e103]
